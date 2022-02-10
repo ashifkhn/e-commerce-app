@@ -1,0 +1,64 @@
+@import url(./css/reset.css);
+@import url(./css/main.css);
+
+.container {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+    position: relative;
+}
+
+nav {
+	display: flex;
+	/* width: 100%; */
+	justify-content: space-between;
+	text-align: center;
+	color: #414141;
+	align-items: center;
+	padding: 1rem;
+}
+
+a {
+	text-decoration: none;
+	/* color: var(--primaryColor); */
+	margin: 0.8rem;
+	font-size: 1.5rem;
+	/* padding: 0.5rem; */
+}
+.search {
+	width: 50%;
+	padding: 1.1em 0.6em;
+	border-radius: 5px;
+	border: none;
+}
+
+.heroImgContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.heroImg {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	object-fit: cover;
+	position: relative;
+	opacity: 0.9;
+}
+
+.explore{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 30%;
+    transform: translate(-50%, -50%);
+}
+
+.button:hover{
+    background-color: rgb(0, 0, 0);
+}

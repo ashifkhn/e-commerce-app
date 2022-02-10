@@ -1,0 +1,34 @@
+.bgRed {
+	background-color: rgb(194, 98, 98);
+}
+
+.bgBlue {
+	background-color: rgb(158, 212, 245);
+}
+
+.bgGreen {
+	background-color: rgb(57, 177, 113);
+}
+
+.bgPurple {
+	background-color: rgb(197, 119, 197);
+}
+
+.bgOrange {
+	background-color: rgb(255, 228, 177);
+}
+
+.bgGrey {
+	background-color: rgb(151, 151, 151);
+}
+.bgBlack {
+	background-color: #050505;
+}
+
+.bgTransparent{
+background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bgDarkGray{
+	background-color: rgba(38, 38, 38,0.5);
+}
