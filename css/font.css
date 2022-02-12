@@ -8,6 +8,10 @@
 }
 
 .textM {
+	font-size: 1.1rem;
+}
+
+.textM2{
 	font-size: 1.5rem;
 }
 
@@ -26,6 +30,11 @@
 .textVS {
 	font-size: 0.5rem;
 }
+
+.textS {
+	font-size: 0.7rem;
+}
+
 
 
 .fontWhite{
