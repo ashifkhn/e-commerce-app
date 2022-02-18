@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/b78dcc4774.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./cart.css" />
+    <title>d-Gadget Store</title>
+  </head>
+  <body>
+    <nav class="fontWhite bgBlack">
+      <a class="brandName fontWhite bold pointer" href="/index.html"
+        >d-Gadget Store</a
+      >
+      <div class="search">
+        <input type="search" placeholder="search" class="search" />
+      </div>
+      <div class="list">
+        <a class="p05 fontWhite bgBlack pointer" href="../auth/login.html"
+          >Login</a
+        >
+        <a class="p05 fontWhite bgBlack pointer" href="../cart/cart.html"
+          ><i class="fa fa-shopping-cart" style="font-size: 24px"></i
+        ></a>
+        <a
+          class="p05 fontWhite bgBlack pointer"
+          href="../wishlist/wishlist.html"
+          ><i class="fa fa-heart" style="font-size: 24px"></i
+        ></a>
+      </div>
+    </nav>
+
+    <h1 class="heading">My Cart</h1>
+    <div class="container">
+      <main class="main">
+        <div class="itemContainer">
+          <div class="item">
+            <img
+              src="https://m.media-amazon.com/images/I/61SIg1UXFyS._SL1500_.jpg"
+              alt=""
+              class="itemImage"
+            />
+            <div class="productDetails">
+              <h3>High End PC</h3>
+              <p class="bold">Rs.399999</p>
+              <h3>50% off</h3>
+              <div class="quantity">
+                <p>Quantity</p>
+
+                <button class="quantitybtn">+</button>
+                <p>1</p>
+                <button class="quantitybtn">-</button>
+              </div>
+              <button class="btnPrimary br1 p05 noBorder fontWhite">
+                Remove from Cart
+              </button>
+              <button class="btnBlue br1 p05 noBorder">Move to Wishlist</button>
+            </div>
+          </div>
+        </div>
+        <div class="itemContainer">
+          <div class="item">
+            <div class="productDetails">
+              <h3>Price Details:</h3>
+              <p class="bold">Price : Rs.399999</p>
+              <p>Discount:None</p>
+              <p>Delivery Charges: Rs.5000</p>
+              <div class="quantity">
+                <p>Quantity</p>
+
+                <button class="quantitybtn">+</button>
+                <p>1</p>
+                <button class="quantitybtn">-</button>
+              </div>
+              <button class="btnBlue br1 p05 noBorder">Place Order</button>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
