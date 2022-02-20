@@ -46,7 +46,7 @@ Open project
 - Live previews
 - Fullscreen mode
 - Cross platform
-- Made using [Comp UI](https://whyui.netlify.app/)
+- Made using [WhyUI](https://whyui.netlify.app/)
 
 ## Authors
 - [@ashifkhn](https://www.github.com/ashifkhn)
